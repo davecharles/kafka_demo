@@ -1,0 +1,15 @@
+# Compiled source
+*.py[codt]
+__pycache__
+
+# OS generated
+.DS_Store
+**/.DS_Store
+.DS_Store?
+**/.DS_Store?
+
+# IDE and Editors
+.idea/
+
+# Kafka Demo
+certs/
