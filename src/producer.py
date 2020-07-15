@@ -6,7 +6,7 @@ import time
 from kafka import KafkaProducer
 from termcolor import colored
 
-from src import sim
+from . import sim
 
 
 def main():
