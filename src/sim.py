@@ -23,6 +23,7 @@ class Sample:
         )
         humidity = random.randint(60, 70)
         pressure = random.randint(1010, 1020)
+        self.location = location
         self.timestamp = datetime.datetime.now().isoformat()
         self.data = {
             'location': location,
@@ -43,4 +44,4 @@ class Sample:
 
 
 def make_sample():
-    return Sample(random.sample(LOCATIONS, 1))
+    return Sample(random.sample(LOCATIONS, 1)[0])
