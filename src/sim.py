@@ -28,10 +28,10 @@ class Sample:
         self.data = {
             'location': location,
             'temp_celsius': temp_celsius,
-            'wind_speed': wind_speed,
+            'wind_speed_mph': wind_speed,
             'wind_direction': wind_direction,
-            'humidity': humidity,
-            'pressure': pressure
+            'humidity_percent': humidity,
+            'pressure_mb': pressure
         }
 
     @property
